@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri =
-  'mongodb+srv://udemy3602021:WORD2844abc@cluster0.byocklw.mongodb.net/?retryWrites=true&w=majority';
+  'mongodb+srv://udemy3602021:<password>@cluster0.byocklw.mongodb.net/?retryWrites=true&w=majority';
 
 const app = express();
 
